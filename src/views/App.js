@@ -19,7 +19,7 @@ library.add(fas)
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Nav />}>
+    <Route path='/basic-react-app' element={<Nav />}>
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='todo' element={<Todos />} />
