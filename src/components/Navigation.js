@@ -8,7 +8,7 @@ export default function Nav() {
         <>
             <div className="topnav">
                 <NavLink
-                    to='/'
+                    to='/basic-react-app'
                     className={({ isActive, isPending }) => {
                         return isActive ? "active" : isPending ? "pending" : "";
                     }}
