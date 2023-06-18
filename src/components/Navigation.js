@@ -12,6 +12,7 @@ export default function Nav() {
                     className={({ isActive, isPending }) => {
                         return isActive ? "active" : isPending ? "pending" : "";
                     }}
+                    exact
                 >Home</NavLink>
                 <NavLink
                     to="/basic-react-app/about"
