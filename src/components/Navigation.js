@@ -14,13 +14,13 @@ export default function Nav() {
                     }}
                 >Home</NavLink>
                 <NavLink
-                    to="/about"
+                    to="/basic-react-app/about"
                     className={({ isActive, isPending }) => {
                         return isActive ? "active" : isPending ? "pending" : "";
                     }}
                 >About</NavLink>
                 <NavLink
-                    to="/todo"
+                    to="/basic-react-app/todo"
                     className={({ isActive, isPending }) => {
                         return isActive ? "active" : isPending ? "pending" : "";
                     }}
