@@ -1,0 +1,103 @@
+.container {
+    width: 50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+    color: black;
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+        color: black;
+    }
+
+    .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+        min-width: 85px;
+        margin-left: 10px;
+    }
+
+    .btn-delete {
+        background-color: #04AA6D;
+        color: white;
+        padding: 8px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+}
+
+.list-people-content {
+    margin: 15px auto;
+
+    .list-people-item {
+        padding: 5px 0px;
+        border-bottom: 1px solid gray;
+        text-align: left;
+        display: flex;
+        align-items: center;
+
+        &:first-child {
+            border-top: 1px solid gray;
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+
+        .row {
+            display: block;
+
+            .col-25,
+            .col-75,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+    }
+}
