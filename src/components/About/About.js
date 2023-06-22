@@ -32,7 +32,7 @@ export default function About() {
     return (
         <>
             <div className="container">
-                <div className="row"><button className="btn" onClick={() => navigate('/')}>&lt;&lt; Go Home</button></div>
+                <div className="row"><button className="btn" onClick={() => navigate('/basic-react-app/')}>&lt;&lt; Go Home</button></div>
                 <form>
                     <div className="row">
                         <div className="col-25">

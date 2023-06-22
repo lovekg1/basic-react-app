@@ -14,12 +14,15 @@ import Nav from '../components/Navigation'
 import Todos from '../components/Todos/Todos'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { NewsProvider } from '../contexts/NewsContext';
+
+
 
 library.add(fas)
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/basic-react-app' element={<Nav />}>
+    <Route path='basic-react-app' element={<Nav />}>
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='todo' element={<Todos />} />
@@ -29,22 +32,24 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <RouterProvider router={router} />
-        <ToastContainer
-          position="top-right"
-          autoClose={3000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="colored" />
-      </header>
-    </div>
+    <NewsProvider>
+      <div className="App">
+        <header className="App-header">
+          <RouterProvider router={router} />
+          <ToastContainer
+            position="top-right"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="colored" />
+        </header>
+      </div>
+    </NewsProvider>
   );
 }
 
