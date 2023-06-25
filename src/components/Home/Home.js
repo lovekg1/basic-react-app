@@ -1,11 +1,14 @@
 import './Home.scss'
 import React from 'react'
+import logo from '../../assets/image/logo.svg'
 import { useNewsContext } from '../../contexts/NewsContext'
 
 export default function Home() {
     const { news, loading } = useNewsContext()
     return (
         <>
+            <img src={logo} className="App-logo" alt="logo" />
+            <div>Explore React Application... <br /> With HoangAnh ^^</div>
             <div className="home-container">
                 <div className="newsFeedContainer">
                     {loading ? <div style={{ margin: '20px auto' }}>Loading!! Wait a few minutes...</div>

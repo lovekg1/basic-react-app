@@ -12,6 +12,7 @@ import Home from '../components/Home/Home'
 import About from '../components/About/About'
 import Nav from '../components/Navigation'
 import Todos from '../components/Todos/Todos'
+import Mp3Player from '../components/Mp3Player/Mp3Player'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { NewsProvider } from '../contexts/NewsContext';
@@ -26,6 +27,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='todo' element={<Todos />} />
+      <Route path='mp3player' element={<Mp3Player />} />
     </Route>
   )
 )

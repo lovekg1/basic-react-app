@@ -1,4 +1,5 @@
 import './About.scss'
+import logo from '../../assets/image/logo.svg'
 import { useState } from 'react'
 import ListPeople from './ListPeople'
 import { toast } from 'react-toastify'
@@ -31,6 +32,8 @@ export default function About() {
 
     return (
         <>
+            <img src={logo} className="App-logo" alt="logo" />
+            <div>Explore React Application... <br /> With HoangAnh ^^</div>
             <div className="container">
                 <div className="row"><button className="btn" onClick={() => navigate('/basic-react-app/')}>&lt;&lt; Go Home</button></div>
                 <form>
