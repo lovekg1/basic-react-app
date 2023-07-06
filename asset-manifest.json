@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/basic-react-app/static/css/main.3c76d193.css",
-    "main.js": "/basic-react-app/static/js/main.cf189a59.js",
+    "main.css": "/basic-react-app/static/css/main.ecbd2dc6.css",
+    "main.js": "/basic-react-app/static/js/main.d7b7a3ff.js",
     "static/js/787.3bbe8c73.chunk.js": "/basic-react-app/static/js/787.3bbe8c73.chunk.js",
+    "static/media/Ngôi Nhà Hoa Hồng.mp3": "/basic-react-app/static/media/Ngôi Nhà Hoa Hồng.f54d01c61045cec7b53d.mp3",
+    "static/media/Công Chúa Bong Bóng.mp3": "/basic-react-app/static/media/Công Chúa Bong Bóng.1e6531b9fc58fd7cd8ef.mp3",
+    "static/media/Xe Đạp.mp3": "/basic-react-app/static/media/Xe Đạp.c558ca5b22bcbaff9c86.mp3",
+    "static/media/Một Vòng Trái Đất.mp3": "/basic-react-app/static/media/Một Vòng Trái Đất.9ac4923e0e12814a673d.mp3",
+    "static/media/Mỗi Người Một Nơi.mp3": "/basic-react-app/static/media/Mỗi Người Một Nơi.ac77355e307b96eb2d1d.mp3",
     "static/media/logo.svg": "/basic-react-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/basic-react-app/index.html",
-    "main.3c76d193.css.map": "/basic-react-app/static/css/main.3c76d193.css.map",
-    "main.cf189a59.js.map": "/basic-react-app/static/js/main.cf189a59.js.map",
+    "main.ecbd2dc6.css.map": "/basic-react-app/static/css/main.ecbd2dc6.css.map",
+    "main.d7b7a3ff.js.map": "/basic-react-app/static/js/main.d7b7a3ff.js.map",
     "787.3bbe8c73.chunk.js.map": "/basic-react-app/static/js/787.3bbe8c73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c76d193.css",
-    "static/js/main.cf189a59.js"
+    "static/css/main.ecbd2dc6.css",
+    "static/js/main.d7b7a3ff.js"
   ]
 }
